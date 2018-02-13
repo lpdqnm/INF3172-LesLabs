@@ -24,7 +24,7 @@ int main()
 		scanf("%s", nomPers);
 		nbCar = strlen(nomPers);
 		write(fd, nomPers, nbCar);
-		write(fd, "\n", 2);
+		write(fd, "\n", 1);
 		++i;
 	}
 	close(fd);
